@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Banner from "../components/Banner";
 import { Box, Button, Container, Input, VStack, Heading, Text, AspectRatio, IconButton, useToast } from "@chakra-ui/react";
 import { FaYoutube, FaDownload, FaPlay } from "react-icons/fa";
 
@@ -45,6 +46,7 @@ const Index = () => {
   return (
     <Container maxW="container.xl" py={10}>
       <VStack spacing={5}>
+        <Banner />
         <Heading as="h1" size="2xl">
           Video Generation Platform
         </Heading>
